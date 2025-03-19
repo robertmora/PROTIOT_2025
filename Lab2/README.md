@@ -85,7 +85,7 @@ Locate the first UDP packet again, this time focusing on the FCF (Frame Control 
 Compile a report summarizing your findings, insights, and reflections on the lab activities. Document as requested through the instructions. Attach the `.pcap` file stored during the Wireshark analysis, the `.csc` file of the network of 6 nodes you built, and any requested screenshots. Include any other material you deem necessary to support your conclusions.
 
 ### Submission Details
-- **Deadline:** 19/April/2024, 23:59 CET.
+- **Deadline:** 20/April/2025, 23:59 CET.
 - **Format:** PDF, to be submitted via an assignment submission system in Moodle, which I will open for this purpose. Attachments should include the `.pcap` file, `.csc` file of your network setup, requested screenshots, and any additional supportive materials.
 
 ### Seek Support
