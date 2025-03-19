@@ -151,7 +151,7 @@ This preliminary setup is just the beginning. Further instructions will guide yo
 
 ## Submission Guidelines
 
-Compile a report (max 3 pages) summarizing findings, insights, and reflections. Include screenshots in the appendix and references.
+Compile a report summarizing findings, insights, and reflections. Include screenshots in the appendix and references.
 
 ### Submission Details
 
