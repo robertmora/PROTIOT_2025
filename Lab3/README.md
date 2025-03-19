@@ -155,6 +155,6 @@ Compile a report (max 3 pages) summarizing findings, insights, and reflections. 
 
 ### Submission Details
 
-- **Deadline**: 30 April 2024, 23:59 CET
+- **Deadline**: 30 April 2025, 23:59 CET
 - **Format**: PDF
 - **Submission Method**: Via the assignment submission system on Moodle. Attachments should include screenshots of the network setup and any additional supportive materials.
