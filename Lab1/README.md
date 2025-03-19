@@ -47,7 +47,7 @@ Include screenshots of your observations to enrich your report and provide a vis
 
 ### Submission Details
 
-- **Deadline:** 10/April/2024, 23:59 CET.
+- **Deadline:** 10/April/2025, 23:59 CET.
 - **Format:** PDF, to be submitted via an assignment submission system in Moodle, which I will open for this purpose.
 
 ## Additional Guidelines
