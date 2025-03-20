@@ -2,7 +2,7 @@
 # PROTIOT Course Lab 2: Advanced Network Simulation with Contiki-NG Cooja
 
 ## Introduction
-Building upon our initial session, Lab 2 delves deeper into the Contiki-NG Cooja network simulator's capabilities, analyzing more complex scenarios. This lab introduces Wireshark as an additional investigative tool, enhancing our exploration of IoT network protocols such as IEEE 802.15.4, 6LowPAN, and optionally, RPL.
+Building upon our initial session, Lab 2 delves deeper into the Contiki-NG Cooja network simulator's capabilities, analyzing more complex scenarios. This lab introduces Wireshark as an additional investigative tool, enhancing our exploration of IoT network protocols such as IEEE 802.15.4, 6LowPAN, and RPL.
 
 Please note that this activity can be completed individually or in pairs.
 
@@ -19,7 +19,7 @@ Please note that this activity can be completed individually or in pairs.
 - **Additional Activity:** Modify the `udp-server.c` and `udp-client.c` scripts to change the messages exchanged (e.g., modify the 'hello' message). After making the changes, simply re-build the simulation scenario and re-run the simulation. Observe the new messages exchanged in the `Mote Output` tab and include a screenshot of these updated messages in your report.
 
 ### Activity 2: Higher Scale 6LoWPAN Network
-- **Task:** Create a complex network with 5 nodes and 1 border router to explore characteristics of 802.15.4, 6LoWPAN, and optionally RPL.
+- **Task:** Create a complex network with 5 nodes and 1 border router to explore characteristics of 802.15.4, 6LoWPAN, and RPL.
 - **Objective:** Use Wireshark and Cooja to analyze the network's behavior and how it enables communication between simulated nodes and the external world. Also, in this tutorial while you will learn how to simulate a Routing Protocol for Low-Power and Lossy Networks (RPL) border router in Cooja, you will learn to use it to allow communications between emulated nodes inside Cooja and processes running in the “outside world”.
     1. Set up a new simulation with a `border-router.c` from `/home/networkedss/Desktop/contiki-ng/examples/rpl-border-router/` and five `udp-client.c` motes.
     2. Arrange the nodes so that 1, 2, 3 are in the same communication coverage, 3, 5, 6 are in the same communication coverage, and 2, 4, 5 are in the same communication range (please have a look at the picture below for your reference).
@@ -75,7 +75,7 @@ Locate the first UDP packet again, this time focusing on the FCF (Frame Control 
 - **Addressing Relationship:** Explore the relationship between IEEE 802.15.4 addresses and IPv6 addresses. How are they correlated or translated?
 - **Header Reconstitution:** Attempt to reconstitute the non-compressed header. Detail the steps involved in this process, highlighting the conversion or translation mechanisms.
 
-#### RPL Analysis (OPTIONAL Activity)
+#### RPL Analysis
 1. **Filter for ICMPv6:** Use the `icmpv6` filter in Wireshark to isolate packets relevant to RPL, the routing protocol under analysis.
 2. **Analyzing Routing Dynamics:** Examine how communication coverage influences routing decisions within the network. Consider applying additional filters for IPv6 if necessary to isolate relevant traffic.
 3. **Practical Application:** Conduct this analysis for both the border router and a single selected UDP client. Document any patterns or behaviors observed that illustrate the routing protocol's functionality and efficiency.
